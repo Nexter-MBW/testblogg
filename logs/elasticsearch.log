@@ -1,0 +1,188 @@
+[2022-02-20T00:57:46,718][INFO ][o.e.n.Node               ] [JORGE-PC] version[8.0.0], pid[3152], build[default/zip/1b6a7ece17463df5ff54a3e1302d825889aa1161/2022-02-03T16:47:57.507843096Z], OS[Windows 7/6.1/amd64], JVM[Eclipse Adoptium/OpenJDK 64-Bit Server VM/17.0.1/17.0.1+12]
+[2022-02-20T00:57:48,092][INFO ][o.e.n.Node               ] [JORGE-PC] JVM home [C:\Users\Jorge\Desktop\testblogg\microblog-main\elasticsearch-8.0.0\jdk], using bundled JDK [true]
+[2022-02-20T00:57:48,092][INFO ][o.e.n.Node               ] [JORGE-PC] JVM arguments [-Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -Djava.security.manager=allow, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -XX:+ShowCodeDetailsInExceptionMessages, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dio.netty.allocator.numDirectArenas=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j2.formatMsgNoLookups=true, -Djava.locale.providers=SPI,COMPAT, --add-opens=java.base/java.io=ALL-UNNAMED, -XX:+UseG1GC, -Djava.io.tmpdir=C:\Users\Jorge\AppData\Local\Temp\elasticsearch, -XX:+HeapDumpOnOutOfMemoryError, -XX:+ExitOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,pid,tags:filecount=32,filesize=64m, -Xms954m, -Xmx954m, -XX:MaxDirectMemorySize=500170752, -XX:G1HeapRegionSize=4m, -XX:InitiatingHeapOccupancyPercent=30, -XX:G1ReservePercent=15, -Delasticsearch, -Des.path.home=C:\Users\Jorge\Desktop\testblogg\microblog-main\elasticsearch-8.0.0, -Des.path.conf=C:\Users\Jorge\Desktop\testblogg\microblog-main\elasticsearch-8.0.0\config, -Des.distribution.flavor=default, -Des.distribution.type=zip, -Des.bundled_jdk=true]
+[2022-02-20T00:58:45,902][WARN ][stderr                   ] [JORGE-PC] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+[2022-02-20T00:58:45,917][WARN ][stderr                   ] [JORGE-PC] SLF4J: Defaulting to no-operation (NOP) logger implementation
+[2022-02-20T00:58:45,917][WARN ][stderr                   ] [JORGE-PC] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[2022-02-20T00:59:43,730][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [aggs-matrix-stats]
+[2022-02-20T00:59:43,730][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [analysis-common]
+[2022-02-20T00:59:43,730][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [constant-keyword]
+[2022-02-20T00:59:43,730][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [frozen-indices]
+[2022-02-20T00:59:43,730][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [ingest-common]
+[2022-02-20T00:59:43,730][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [ingest-geoip]
+[2022-02-20T00:59:43,730][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [ingest-user-agent]
+[2022-02-20T00:59:43,745][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [kibana]
+[2022-02-20T00:59:43,745][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [lang-expression]
+[2022-02-20T00:59:43,745][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [lang-mustache]
+[2022-02-20T00:59:43,745][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [lang-painless]
+[2022-02-20T00:59:43,745][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [legacy-geo]
+[2022-02-20T00:59:43,745][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [mapper-extras]
+[2022-02-20T00:59:43,745][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [mapper-version]
+[2022-02-20T00:59:43,745][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [parent-join]
+[2022-02-20T00:59:43,745][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [percolator]
+[2022-02-20T00:59:43,761][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [rank-eval]
+[2022-02-20T00:59:43,761][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [reindex]
+[2022-02-20T00:59:43,761][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [repositories-metering-api]
+[2022-02-20T00:59:43,761][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [repository-azure]
+[2022-02-20T00:59:43,776][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [repository-encrypted]
+[2022-02-20T00:59:43,776][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [repository-gcs]
+[2022-02-20T00:59:43,776][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [repository-s3]
+[2022-02-20T00:59:43,776][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [repository-url]
+[2022-02-20T00:59:43,792][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [runtime-fields-common]
+[2022-02-20T00:59:43,792][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [search-business-rules]
+[2022-02-20T00:59:43,792][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [searchable-snapshots]
+[2022-02-20T00:59:43,792][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [snapshot-based-recoveries]
+[2022-02-20T00:59:43,808][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [snapshot-repo-test-kit]
+[2022-02-20T00:59:43,808][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [spatial]
+[2022-02-20T00:59:43,808][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [transform]
+[2022-02-20T00:59:43,808][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [transport-netty4]
+[2022-02-20T00:59:43,823][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [unsigned-long]
+[2022-02-20T00:59:43,823][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [vector-tile]
+[2022-02-20T00:59:43,823][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [vectors]
+[2022-02-20T00:59:43,823][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [wildcard]
+[2022-02-20T00:59:43,823][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [x-pack-aggregate-metric]
+[2022-02-20T00:59:43,839][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [x-pack-analytics]
+[2022-02-20T00:59:43,839][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [x-pack-async]
+[2022-02-20T00:59:43,839][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [x-pack-async-search]
+[2022-02-20T00:59:43,854][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [x-pack-autoscaling]
+[2022-02-20T00:59:43,854][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [x-pack-ccr]
+[2022-02-20T00:59:43,854][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [x-pack-core]
+[2022-02-20T00:59:43,854][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [x-pack-data-streams]
+[2022-02-20T00:59:43,870][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [x-pack-deprecation]
+[2022-02-20T00:59:43,870][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [x-pack-enrich]
+[2022-02-20T00:59:43,870][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [x-pack-eql]
+[2022-02-20T00:59:43,870][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [x-pack-fleet]
+[2022-02-20T00:59:43,886][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [x-pack-graph]
+[2022-02-20T00:59:43,886][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [x-pack-identity-provider]
+[2022-02-20T00:59:43,886][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [x-pack-ilm]
+[2022-02-20T00:59:43,886][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [x-pack-logstash]
+[2022-02-20T00:59:43,886][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [x-pack-ml]
+[2022-02-20T00:59:43,901][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [x-pack-monitoring]
+[2022-02-20T00:59:43,901][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [x-pack-ql]
+[2022-02-20T00:59:43,901][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [x-pack-rollup]
+[2022-02-20T00:59:43,901][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [x-pack-security]
+[2022-02-20T00:59:43,901][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [x-pack-shutdown]
+[2022-02-20T00:59:43,901][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [x-pack-sql]
+[2022-02-20T00:59:43,917][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [x-pack-stack]
+[2022-02-20T00:59:43,917][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [x-pack-text-structure]
+[2022-02-20T00:59:43,917][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [x-pack-voting-only-node]
+[2022-02-20T00:59:43,917][INFO ][o.e.p.PluginsService     ] [JORGE-PC] loaded module [x-pack-watcher]
+[2022-02-20T00:59:43,932][INFO ][o.e.p.PluginsService     ] [JORGE-PC] no plugins loaded
+[2022-02-20T01:00:40,075][INFO ][o.e.e.NodeEnvironment    ] [JORGE-PC] using [1] data paths, mounts [[(C:)]], net usable_space [332.1gb], net total_space [465.6gb], types [NTFS]
+[2022-02-20T01:00:40,091][INFO ][o.e.e.NodeEnvironment    ] [JORGE-PC] heap size [956mb], compressed ordinary object pointers [true]
+[2022-02-20T01:01:19,734][INFO ][o.e.n.Node               ] [JORGE-PC] node name [JORGE-PC], node ID [NqE48KzhT7akGi7TBvvsuw], cluster name [elasticsearch], roles [ingest, data_frozen, ml, data_hot, transform, data_content, data_warm, master, remote_cluster_client, data, data_cold]
+[2022-02-20T01:05:26,797][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [JORGE-PC] [controller/7552] [Main.cc@123] controller (64 bit): Version 8.0.0 (Build 5e85495ea85316) Copyright (c) 2022 Elasticsearch BV
+[2022-02-20T01:05:28,576][INFO ][o.e.x.s.Security         ] [JORGE-PC] Security is enabled
+[2022-02-20T01:05:29,841][INFO ][o.e.x.s.a.Realms         ] [JORGE-PC] license mode is [trial], currently licensed security realms are [reserved/reserved,file/default_file,native/default_native]
+[2022-02-20T01:05:29,982][INFO ][o.e.x.s.a.s.FileRolesStore] [JORGE-PC] parsed [0] roles from file [C:\Users\Jorge\Desktop\testblogg\microblog-main\elasticsearch-8.0.0\config\roles.yml]
+[2022-02-20T01:05:32,792][INFO ][o.e.i.g.DatabaseNodeService] [JORGE-PC] deleting stale file [C:\Users\Jorge\AppData\Local\Temp\elasticsearch\geoip-databases\NqE48KzhT7akGi7TBvvsuw\GeoLite2-ASN.mmdb]
+[2022-02-20T01:05:32,886][INFO ][o.e.i.g.DatabaseNodeService] [JORGE-PC] deleting stale file [C:\Users\Jorge\AppData\Local\Temp\elasticsearch\geoip-databases\NqE48KzhT7akGi7TBvvsuw\GeoLite2-ASN.mmdb_COPYRIGHT.txt]
+[2022-02-20T01:05:32,917][INFO ][o.e.i.g.DatabaseNodeService] [JORGE-PC] deleting stale file [C:\Users\Jorge\AppData\Local\Temp\elasticsearch\geoip-databases\NqE48KzhT7akGi7TBvvsuw\GeoLite2-ASN.mmdb_elastic-geoip-database-service-agreement-LICENSE.txt]
+[2022-02-20T01:05:32,933][INFO ][o.e.i.g.DatabaseNodeService] [JORGE-PC] deleting stale file [C:\Users\Jorge\AppData\Local\Temp\elasticsearch\geoip-databases\NqE48KzhT7akGi7TBvvsuw\GeoLite2-ASN.mmdb_LICENSE.txt]
+[2022-02-20T01:05:32,964][INFO ][o.e.i.g.DatabaseNodeService] [JORGE-PC] deleting stale file [C:\Users\Jorge\AppData\Local\Temp\elasticsearch\geoip-databases\NqE48KzhT7akGi7TBvvsuw\GeoLite2-City.mmdb]
+[2022-02-20T01:05:33,011][INFO ][o.e.i.g.DatabaseNodeService] [JORGE-PC] deleting stale file [C:\Users\Jorge\AppData\Local\Temp\elasticsearch\geoip-databases\NqE48KzhT7akGi7TBvvsuw\GeoLite2-City.mmdb_COPYRIGHT.txt]
+[2022-02-20T01:05:33,026][INFO ][o.e.i.g.DatabaseNodeService] [JORGE-PC] deleting stale file [C:\Users\Jorge\AppData\Local\Temp\elasticsearch\geoip-databases\NqE48KzhT7akGi7TBvvsuw\GeoLite2-City.mmdb_elastic-geoip-database-service-agreement-LICENSE.txt]
+[2022-02-20T01:05:33,026][INFO ][o.e.i.g.DatabaseNodeService] [JORGE-PC] deleting stale file [C:\Users\Jorge\AppData\Local\Temp\elasticsearch\geoip-databases\NqE48KzhT7akGi7TBvvsuw\GeoLite2-City.mmdb_LICENSE.txt]
+[2022-02-20T01:05:33,042][INFO ][o.e.i.g.DatabaseNodeService] [JORGE-PC] deleting stale file [C:\Users\Jorge\AppData\Local\Temp\elasticsearch\geoip-databases\NqE48KzhT7akGi7TBvvsuw\GeoLite2-City.mmdb_README.txt]
+[2022-02-20T01:05:33,042][INFO ][o.e.i.g.DatabaseNodeService] [JORGE-PC] deleting stale file [C:\Users\Jorge\AppData\Local\Temp\elasticsearch\geoip-databases\NqE48KzhT7akGi7TBvvsuw\GeoLite2-Country.mmdb]
+[2022-02-20T01:05:33,058][INFO ][o.e.i.g.DatabaseNodeService] [JORGE-PC] deleting stale file [C:\Users\Jorge\AppData\Local\Temp\elasticsearch\geoip-databases\NqE48KzhT7akGi7TBvvsuw\GeoLite2-Country.mmdb_COPYRIGHT.txt]
+[2022-02-20T01:05:33,073][INFO ][o.e.i.g.DatabaseNodeService] [JORGE-PC] deleting stale file [C:\Users\Jorge\AppData\Local\Temp\elasticsearch\geoip-databases\NqE48KzhT7akGi7TBvvsuw\GeoLite2-Country.mmdb_elastic-geoip-database-service-agreement-LICENSE.txt]
+[2022-02-20T01:05:33,073][INFO ][o.e.i.g.DatabaseNodeService] [JORGE-PC] deleting stale file [C:\Users\Jorge\AppData\Local\Temp\elasticsearch\geoip-databases\NqE48KzhT7akGi7TBvvsuw\GeoLite2-Country.mmdb_LICENSE.txt]
+[2022-02-20T01:05:37,507][INFO ][o.e.t.n.NettyAllocator   ] [JORGE-PC] creating NettyAllocator with the following configs: [name=unpooled, suggested_max_allocation_size=1mb, factors={es.unsafe.use_unpooled_allocator=null, g1gc_enabled=true, g1gc_region_size=4mb, heap_size=956mb}]
+[2022-02-20T01:05:38,755][INFO ][o.e.d.DiscoveryModule    ] [JORGE-PC] using discovery type [zen] and seed hosts providers [settings]
+[2022-02-20T01:05:47,252][INFO ][o.e.n.Node               ] [JORGE-PC] initialized
+[2022-02-20T01:05:47,252][INFO ][o.e.n.Node               ] [JORGE-PC] starting ...
+[2022-02-20T01:05:47,893][INFO ][o.e.x.s.c.f.PersistentCache] [JORGE-PC] persistent cache index loaded
+[2022-02-20T01:05:47,908][INFO ][o.e.x.d.l.DeprecationIndexingComponent] [JORGE-PC] deprecation component started
+[2022-02-20T01:05:51,888][INFO ][o.e.t.TransportService   ] [JORGE-PC] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2022-02-20T01:05:57,312][INFO ][o.e.c.c.Coordinator      ] [JORGE-PC] cluster UUID [6dNAO2dxTYafeY1-fbNlTw]
+[2022-02-20T01:05:59,360][INFO ][o.e.c.s.MasterService    ] [JORGE-PC] elected-as-master ([1] nodes joined)[{JORGE-PC}{NqE48KzhT7akGi7TBvvsuw}{RUlK1gMvRvap192RGNRVDA}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 6, version: 69, delta: master node changed {previous [], current [{JORGE-PC}{NqE48KzhT7akGi7TBvvsuw}{RUlK1gMvRvap192RGNRVDA}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}]}
+[2022-02-20T01:06:00,114][INFO ][o.e.c.s.ClusterApplierService] [JORGE-PC] master node changed {previous [], current [{JORGE-PC}{NqE48KzhT7akGi7TBvvsuw}{RUlK1gMvRvap192RGNRVDA}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}]}, term: 6, version: 69, reason: Publication{term=6, version=69}
+[2022-02-20T01:06:01,433][INFO ][o.e.h.AbstractHttpServerTransport] [JORGE-PC] publish_address {192.168.15.5:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}, {192.168.15.5:9200}
+[2022-02-20T01:06:01,433][INFO ][o.e.n.Node               ] [JORGE-PC] started
+[2022-02-20T01:06:02,018][INFO ][o.e.l.LicenseService     ] [JORGE-PC] license [c4068c3f-ce79-490c-a730-025c43cae2a6] mode [basic] - valid
+[2022-02-20T01:06:02,080][INFO ][o.e.x.s.a.Realms         ] [JORGE-PC] license mode is [basic], currently licensed security realms are [reserved/reserved,file/default_file,native/default_native]
+[2022-02-20T01:06:02,205][INFO ][o.e.g.GatewayService     ] [JORGE-PC] recovered [2] indices into cluster_state
+[2022-02-20T01:06:09,461][INFO ][o.e.c.r.a.AllocationService] [JORGE-PC] current.health="GREEN" message="Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[.security-7][0]]])." previous.health="RED" reason="shards started [[.security-7][0]]"
+[2022-02-20T01:06:12,590][INFO ][o.e.m.j.JvmGcMonitorService] [JORGE-PC] [gc][24] overhead, spent [345ms] collecting in the last [1.3s]
+[2022-02-20T01:06:15,446][INFO ][o.e.i.g.DatabaseNodeService] [JORGE-PC] successfully loaded geoip database file [GeoLite2-Country.mmdb]
+[2022-02-20T01:06:15,930][INFO ][o.e.i.g.DatabaseNodeService] [JORGE-PC] successfully loaded geoip database file [GeoLite2-ASN.mmdb]
+[2022-02-20T01:06:46,446][INFO ][o.e.i.g.DatabaseNodeService] [JORGE-PC] successfully loaded geoip database file [GeoLite2-City.mmdb]
+[2022-02-20T01:07:08,523][INFO ][o.e.i.g.GeoIpDownloader  ] [JORGE-PC] successfully downloaded geoip database [GeoLite2-ASN.mmdb]
+[2022-02-20T01:07:08,835][INFO ][o.e.i.g.DatabaseReaderLazyLoader] [JORGE-PC] evicted [0] entries from cache after reloading database [C:\Users\Jorge\AppData\Local\Temp\elasticsearch\geoip-databases\NqE48KzhT7akGi7TBvvsuw\GeoLite2-ASN.mmdb]
+[2022-02-20T01:07:08,835][INFO ][o.e.i.g.DatabaseNodeService] [JORGE-PC] successfully loaded geoip database file [GeoLite2-ASN.mmdb]
+[2022-02-20T01:08:37,439][INFO ][o.e.i.g.GeoIpDownloader  ] [JORGE-PC] successfully downloaded geoip database [GeoLite2-City.mmdb]
+[2022-02-20T01:08:51,916][INFO ][o.e.i.g.GeoIpDownloader  ] [JORGE-PC] successfully downloaded geoip database [GeoLite2-Country.mmdb]
+[2022-02-20T01:08:53,057][INFO ][o.e.i.g.DatabaseReaderLazyLoader] [JORGE-PC] evicted [0] entries from cache after reloading database [C:\Users\Jorge\AppData\Local\Temp\elasticsearch\geoip-databases\NqE48KzhT7akGi7TBvvsuw\GeoLite2-Country.mmdb]
+[2022-02-20T01:08:53,073][INFO ][o.e.i.g.DatabaseNodeService] [JORGE-PC] successfully loaded geoip database file [GeoLite2-Country.mmdb]
+[2022-02-20T01:08:55,525][INFO ][o.e.i.g.DatabaseReaderLazyLoader] [JORGE-PC] evicted [0] entries from cache after reloading database [C:\Users\Jorge\AppData\Local\Temp\elasticsearch\geoip-databases\NqE48KzhT7akGi7TBvvsuw\GeoLite2-City.mmdb]
+[2022-02-20T01:08:55,525][INFO ][o.e.i.g.DatabaseNodeService] [JORGE-PC] successfully loaded geoip database file [GeoLite2-City.mmdb]
+[2022-02-20T01:09:02,451][WARN ][o.e.t.ThreadPool         ] [JORGE-PC] execution of [ReschedulingRunnable{runnable=org.elasticsearch.watcher.ResourceWatcherService$ResourceMonitor@4d67e5fa, interval=5s}] took [6286ms] which is above the warn threshold of [5000ms]
+[2022-02-20T01:38:00,093][INFO ][o.e.m.j.JvmGcMonitorService] [JORGE-PC] [gc][1887] overhead, spent [455ms] collecting in the last [1.4s]
+[2022-02-20T01:41:03,803][INFO ][o.e.m.j.JvmGcMonitorService] [JORGE-PC] [gc][young][2052][43] duration [732ms], collections [1]/[4.6s], total [732ms]/[8.9s], memory [657.4mb]->[105.2mb]/[956mb], all_pools {[young] [564mb]->[12mb]/[0b]}{[old] [89.4mb]->[89.9mb]/[956mb]}{[survivor] [4mb]->[3.3mb]/[0b]}
+[2022-02-20T01:41:04,458][WARN ][o.e.t.ThreadPool         ] [JORGE-PC] execution of [ReschedulingRunnable{runnable=org.elasticsearch.monitor.jvm.JvmGcMonitorService$1@3a078ac8, interval=1s}] took [8278ms] which is above the warn threshold of [5000ms]
+[2022-02-20T01:44:17,869][WARN ][o.e.t.ThreadPool         ] [JORGE-PC] execution of [ReschedulingRunnable{runnable=org.elasticsearch.watcher.ResourceWatcherService$ResourceMonitor@4d67e5fa, interval=5s}] took [15614ms] which is above the warn threshold of [5000ms]
+[2022-02-20T01:44:23,248][WARN ][o.e.m.j.JvmGcMonitorService] [JORGE-PC] [gc][young][2212][44] duration [15.1s], collections [1]/[16.8s], total [15.1s]/[24s], memory [645.2mb]->[93.2mb]/[956mb], all_pools {[young] [552mb]->[0b]/[0b]}{[old] [89.9mb]->[92.2mb]/[956mb]}{[survivor] [3.3mb]->[1021.3kb]/[0b]}
+[2022-02-20T01:44:23,251][WARN ][o.e.m.j.JvmGcMonitorService] [JORGE-PC] [gc][2212] overhead, spent [15.1s] collecting in the last [16.8s]
+[2022-02-20T01:45:03,012][WARN ][o.e.m.j.JvmGcMonitorService] [JORGE-PC] [gc][young][2220][45] duration [6.6s], collections [1]/[11.3s], total [6.6s]/[30.7s], memory [125.2mb]->[105.3mb]/[956mb], all_pools {[young] [32mb]->[12mb]/[0b]}{[old] [92.2mb]->[92.7mb]/[956mb]}{[survivor] [1021.3kb]->[619kb]/[0b]}
+[2022-02-20T01:45:03,056][WARN ][o.e.m.j.JvmGcMonitorService] [JORGE-PC] [gc][2220] overhead, spent [6.6s] collecting in the last [11.3s]
+[2022-02-20T01:44:33,243][WARN ][o.e.t.ThreadPool         ] [JORGE-PC] timer thread slept for [15.4s/15415ms] on absolute clock which is above the warn threshold of [5000ms]
+[2022-02-20T01:45:08,354][WARN ][o.e.t.ThreadPool         ] [JORGE-PC] timer thread slept for [15.4s/15414678623ns] on relative clock which is above the warn threshold of [5000ms]
+[2022-02-20T01:45:08,572][WARN ][o.e.t.ThreadPool         ] [JORGE-PC] timer thread slept for [51s/51021ms] on absolute clock which is above the warn threshold of [5000ms]
+[2022-02-20T01:45:08,572][WARN ][o.e.t.ThreadPool         ] [JORGE-PC] timer thread slept for [51s/51020052371ns] on relative clock which is above the warn threshold of [5000ms]
+[2022-02-20T01:45:29,890][WARN ][o.e.m.j.JvmGcMonitorService] [JORGE-PC] [gc][young][2240][47] duration [1.8s], collections [1]/[3.5s], total [1.8s]/[32.7s], memory [117.4mb]->[93.3mb]/[956mb], all_pools {[young] [24mb]->[0b]/[0b]}{[old] [92.8mb]->[93.1mb]/[956mb]}{[survivor] [606.9kb]->[273.2kb]/[0b]}
+[2022-02-20T01:45:29,890][WARN ][o.e.m.j.JvmGcMonitorService] [JORGE-PC] [gc][2240] overhead, spent [1.8s] collecting in the last [3.5s]
+[2022-02-20T01:47:07,225][WARN ][o.e.t.ThreadPool         ] [JORGE-PC] execution of [ReschedulingRunnable{runnable=org.elasticsearch.watcher.ResourceWatcherService$ResourceMonitor@4d67e5fa, interval=5s}] took [5680ms] which is above the warn threshold of [5000ms]
+[2022-02-20T01:48:44,864][WARN ][o.e.t.ThreadPool         ] [JORGE-PC] execution of [ReschedulingRunnable{runnable=org.elasticsearch.watcher.ResourceWatcherService$ResourceMonitor@4d67e5fa, interval=5s}] took [9477ms] which is above the warn threshold of [5000ms]
+[2022-02-20T01:49:37,352][INFO ][o.e.m.j.JvmGcMonitorService] [JORGE-PC] [gc][2465] overhead, spent [422ms] collecting in the last [1.6s]
+[2022-02-20T01:56:42,529][WARN ][o.e.t.ThreadPool         ] [JORGE-PC] execution of [ReschedulingRunnable{runnable=org.elasticsearch.watcher.ResourceWatcherService$ResourceMonitor@4d67e5fa, interval=5s}] took [6290ms] which is above the warn threshold of [5000ms]
+[2022-02-20T01:56:42,973][WARN ][o.e.m.j.JvmGcMonitorService] [JORGE-PC] [gc][young][2870][60] duration [1.7s], collections [1]/[6.9s], total [1.7s]/[35.6s], memory [653.3mb]->[101.3mb]/[956mb], all_pools {[young] [560mb]->[8mb]/[0b]}{[old] [93.2mb]->[93.2mb]/[956mb]}{[survivor] [61kb]->[115.9kb]/[0b]}
+[2022-02-20T01:56:42,978][INFO ][o.e.m.j.JvmGcMonitorService] [JORGE-PC] [gc][2870] overhead, spent [1.7s] collecting in the last [6.9s]
+[2022-02-20T01:57:03,486][WARN ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [JORGE-PC] received plaintext http traffic on an https channel, closing connection Netty4HttpChannel{localAddress=/127.0.0.1:9200, remoteAddress=/127.0.0.1:50916}
+[2022-02-20T01:57:03,776][WARN ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [JORGE-PC] received plaintext http traffic on an https channel, closing connection Netty4HttpChannel{localAddress=/127.0.0.1:9200, remoteAddress=/127.0.0.1:50927}
+[2022-02-20T01:57:08,953][INFO ][o.e.m.j.JvmGcMonitorService] [JORGE-PC] [gc][young][2895][62] duration [789ms], collections [1]/[1.9s], total [789ms]/[36.6s], memory [125.5mb]->[101.7mb]/[956mb], all_pools {[young] [32mb]->[8mb]/[0b]}{[old] [93.3mb]->[93.3mb]/[956mb]}{[survivor] [206.1kb]->[475.5kb]/[0b]}
+[2022-02-20T01:57:08,999][INFO ][o.e.m.j.JvmGcMonitorService] [JORGE-PC] [gc][2895] overhead, spent [789ms] collecting in the last [1.9s]
+[2022-02-20T01:57:26,624][WARN ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [JORGE-PC] received plaintext http traffic on an https channel, closing connection Netty4HttpChannel{localAddress=/127.0.0.1:9200, remoteAddress=/127.0.0.1:50933}
+[2022-02-20T01:57:26,628][WARN ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [JORGE-PC] received plaintext http traffic on an https channel, closing connection Netty4HttpChannel{localAddress=/127.0.0.1:9200, remoteAddress=/127.0.0.1:50934}
+[2022-02-20T01:57:26,643][WARN ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [JORGE-PC] received plaintext http traffic on an https channel, closing connection Netty4HttpChannel{localAddress=/127.0.0.1:9200, remoteAddress=/127.0.0.1:50936}
+[2022-02-20T01:57:32,494][WARN ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [JORGE-PC] received plaintext http traffic on an https channel, closing connection Netty4HttpChannel{localAddress=/127.0.0.1:9200, remoteAddress=/127.0.0.1:50942}
+[2022-02-20T01:57:32,859][WARN ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [JORGE-PC] received plaintext http traffic on an https channel, closing connection Netty4HttpChannel{localAddress=/127.0.0.1:9200, remoteAddress=/127.0.0.1:50943}
+[2022-02-20T01:57:33,010][WARN ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [JORGE-PC] received plaintext http traffic on an https channel, closing connection Netty4HttpChannel{localAddress=/127.0.0.1:9200, remoteAddress=/127.0.0.1:50945}
+[2022-02-20T02:08:24,644][INFO ][o.e.m.j.JvmGcMonitorService] [JORGE-PC] [gc][3560] overhead, spent [408ms] collecting in the last [1.4s]
+[2022-02-20T02:11:52,314][INFO ][o.e.x.s.a.f.FileUserPasswdStore] [JORGE-PC] users file [C:\Users\Jorge\Desktop\testblogg\microblog-main\elasticsearch-8.0.0\config\users] changed. updating users...
+[2022-02-20T02:11:56,152][INFO ][o.e.x.s.a.f.FileUserRolesStore] [JORGE-PC] users roles file [C:\Users\Jorge\Desktop\testblogg\microblog-main\elasticsearch-8.0.0\config\users_roles] changed. updating users roles...
+[2022-02-20T02:11:56,635][WARN ][o.e.t.ThreadPool         ] [JORGE-PC] execution of [ReschedulingRunnable{runnable=org.elasticsearch.watcher.ResourceWatcherService$ResourceMonitor@4d67e5fa, interval=5s}] took [24295ms] which is above the warn threshold of [5000ms]
+[2022-02-20T02:12:24,862][INFO ][o.e.x.s.a.f.FileUserPasswdStore] [JORGE-PC] users file [C:\Users\Jorge\Desktop\testblogg\microblog-main\elasticsearch-8.0.0\config\users] changed. updating users...
+[2022-02-20T02:12:24,893][INFO ][o.e.x.s.a.f.FileUserRolesStore] [JORGE-PC] users roles file [C:\Users\Jorge\Desktop\testblogg\microblog-main\elasticsearch-8.0.0\config\users_roles] changed. updating users roles...
+[2022-02-20T02:14:37,103][INFO ][o.e.m.j.JvmGcMonitorService] [JORGE-PC] [gc][3899] overhead, spent [419ms] collecting in the last [1.4s]
+[2022-02-20T02:22:58,834][INFO ][o.e.x.s.a.f.FileUserPasswdStore] [JORGE-PC] users file [C:\Users\Jorge\Desktop\testblogg\microblog-main\elasticsearch-8.0.0\config\users] changed. updating users...
+[2022-02-20T02:22:58,881][INFO ][o.e.x.s.a.f.FileUserRolesStore] [JORGE-PC] users roles file [C:\Users\Jorge\Desktop\testblogg\microblog-main\elasticsearch-8.0.0\config\users_roles] changed. updating users roles...
+[2022-02-20T02:23:46,018][WARN ][o.e.h.AbstractHttpServerTransport] [JORGE-PC] handling request [null][GET][/_cluster/health?pretty][Netty4HttpChannel{localAddress=/192.168.15.5:9200, remoteAddress=/192.168.15.5:64254}] took [24605ms] which is above the warn threshold of [5000ms]
+[2022-02-20T02:23:50,936][INFO ][o.e.x.s.a.f.FileUserPasswdStore] [JORGE-PC] users file [C:\Users\Jorge\Desktop\testblogg\microblog-main\elasticsearch-8.0.0\config\users] changed. updating users...
+[2022-02-20T02:23:50,967][INFO ][o.e.x.s.a.f.FileUserRolesStore] [JORGE-PC] users roles file [C:\Users\Jorge\Desktop\testblogg\microblog-main\elasticsearch-8.0.0\config\users_roles] changed. updating users roles...
+[2022-02-20T02:26:03,948][WARN ][o.e.m.j.JvmGcMonitorService] [JORGE-PC] [gc][young][4574][74] duration [1s], collections [1]/[2.1s], total [1s]/[39.4s], memory [658mb]->[106mb]/[956mb], all_pools {[young] [564mb]->[12mb]/[0b]}{[old] [93.3mb]->[93.3mb]/[956mb]}{[survivor] [683.2kb]->[711.3kb]/[0b]}
+[2022-02-20T02:26:03,964][WARN ][o.e.m.j.JvmGcMonitorService] [JORGE-PC] [gc][4574] overhead, spent [1s] collecting in the last [2.1s]
+[2022-02-20T02:31:44,343][INFO ][o.e.m.j.JvmGcMonitorService] [JORGE-PC] [gc][young][4909][76] duration [803ms], collections [1]/[1.8s], total [803ms]/[40.3s], memory [646mb]->[94.1mb]/[956mb], all_pools {[young] [552mb]->[0b]/[0b]}{[old] [93.3mb]->[93.4mb]/[956mb]}{[survivor] [699.3kb]->[694.1kb]/[0b]}
+[2022-02-20T02:31:44,546][INFO ][o.e.m.j.JvmGcMonitorService] [JORGE-PC] [gc][4909] overhead, spent [803ms] collecting in the last [1.8s]
+[2022-02-20T02:34:37,048][INFO ][o.e.m.j.JvmGcMonitorService] [JORGE-PC] [gc][5079] overhead, spent [361ms] collecting in the last [1.3s]
+[2022-02-20T02:35:53,132][INFO ][o.e.x.s.a.f.FileUserPasswdStore] [JORGE-PC] users file [C:\Users\Jorge\Desktop\testblogg\microblog-main\elasticsearch-8.0.0\config\users] changed. updating users...
+[2022-02-20T02:35:53,226][INFO ][o.e.x.s.a.f.FileUserRolesStore] [JORGE-PC] users roles file [C:\Users\Jorge\Desktop\testblogg\microblog-main\elasticsearch-8.0.0\config\users_roles] changed. updating users roles...
+[2022-02-20T02:36:02,951][WARN ][o.e.h.AbstractHttpServerTransport] [JORGE-PC] handling request [null][GET][/_cluster/health?pretty][Netty4HttpChannel{localAddress=/192.168.15.5:9200, remoteAddress=/192.168.15.5:64306}] took [6136ms] which is above the warn threshold of [5000ms]
+[2022-02-20T02:36:28,952][WARN ][o.e.h.AbstractHttpServerTransport] [JORGE-PC] handling request [null][POST][/_security/api_key][Netty4HttpChannel{localAddress=/192.168.15.5:9200, remoteAddress=/192.168.15.5:64307}] took [18366ms] which is above the warn threshold of [5000ms]
+[2022-02-20T02:37:09,242][INFO ][o.e.x.s.a.f.FileUserPasswdStore] [JORGE-PC] users file [C:\Users\Jorge\Desktop\testblogg\microblog-main\elasticsearch-8.0.0\config\users] changed. updating users...
+[2022-02-20T02:37:09,257][INFO ][o.e.x.s.a.f.FileUserRolesStore] [JORGE-PC] users roles file [C:\Users\Jorge\Desktop\testblogg\microblog-main\elasticsearch-8.0.0\config\users_roles] changed. updating users roles...
+[2022-02-20T02:37:26,331][WARN ][o.e.m.j.JvmGcMonitorService] [JORGE-PC] [gc][young][5242][78] duration [1.7s], collections [1]/[2.5s], total [1.7s]/[42.4s], memory [646mb]->[94.2mb]/[956mb], all_pools {[young] [552mb]->[0b]/[0b]}{[old] [93.7mb]->[93.7mb]/[956mb]}{[survivor] [282.5kb]->[473.1kb]/[0b]}
+[2022-02-20T02:37:26,331][WARN ][o.e.m.j.JvmGcMonitorService] [JORGE-PC] [gc][5242] overhead, spent [1.7s] collecting in the last [2.5s]
+[2022-02-20T02:41:34,754][INFO ][o.e.x.s.a.f.FileUserPasswdStore] [JORGE-PC] users file [C:\Users\Jorge\Desktop\testblogg\microblog-main\elasticsearch-8.0.0\config\users] changed. updating users...
+[2022-02-20T02:41:34,769][INFO ][o.e.x.s.a.f.FileUserRolesStore] [JORGE-PC] users roles file [C:\Users\Jorge\Desktop\testblogg\microblog-main\elasticsearch-8.0.0\config\users_roles] changed. updating users roles...
+[2022-02-20T02:41:51,308][INFO ][o.e.x.s.a.f.FileUserPasswdStore] [JORGE-PC] users file [C:\Users\Jorge\Desktop\testblogg\microblog-main\elasticsearch-8.0.0\config\users] changed. updating users...
+[2022-02-20T02:41:51,418][INFO ][o.e.x.s.a.f.FileUserRolesStore] [JORGE-PC] users roles file [C:\Users\Jorge\Desktop\testblogg\microblog-main\elasticsearch-8.0.0\config\users_roles] changed. updating users roles...
+[2022-02-20T02:43:07,956][INFO ][o.e.m.j.JvmGcMonitorService] [JORGE-PC] [gc][5576] overhead, spent [380ms] collecting in the last [1.4s]
+[2022-02-20T02:50:54,547][INFO ][o.e.x.s.a.f.FileUserPasswdStore] [JORGE-PC] users file [C:\Users\Jorge\Desktop\testblogg\microblog-main\elasticsearch-8.0.0\config\users] changed. updating users...
+[2022-02-20T02:50:54,563][INFO ][o.e.x.s.a.f.FileUserRolesStore] [JORGE-PC] users roles file [C:\Users\Jorge\Desktop\testblogg\microblog-main\elasticsearch-8.0.0\config\users_roles] changed. updating users roles...
+[2022-02-20T02:51:04,754][INFO ][o.e.x.s.a.f.FileUserPasswdStore] [JORGE-PC] users file [C:\Users\Jorge\Desktop\testblogg\microblog-main\elasticsearch-8.0.0\config\users] changed. updating users...
+[2022-02-20T02:51:04,770][INFO ][o.e.x.s.a.f.FileUserRolesStore] [JORGE-PC] users roles file [C:\Users\Jorge\Desktop\testblogg\microblog-main\elasticsearch-8.0.0\config\users_roles] changed. updating users roles...
+[2022-02-20T02:58:31,092][INFO ][o.e.x.s.a.f.FileUserPasswdStore] [JORGE-PC] users file [C:\Users\Jorge\Desktop\testblogg\microblog-main\elasticsearch-8.0.0\config\users] changed. updating users...
+[2022-02-20T02:58:31,295][INFO ][o.e.x.s.a.f.FileUserRolesStore] [JORGE-PC] users roles file [C:\Users\Jorge\Desktop\testblogg\microblog-main\elasticsearch-8.0.0\config\users_roles] changed. updating users roles...
+[2022-02-20T02:58:46,469][INFO ][o.e.x.s.a.f.FileUserPasswdStore] [JORGE-PC] users file [C:\Users\Jorge\Desktop\testblogg\microblog-main\elasticsearch-8.0.0\config\users] changed. updating users...
+[2022-02-20T02:58:46,485][INFO ][o.e.x.s.a.f.FileUserRolesStore] [JORGE-PC] users roles file [C:\Users\Jorge\Desktop\testblogg\microblog-main\elasticsearch-8.0.0\config\users_roles] changed. updating users roles...
